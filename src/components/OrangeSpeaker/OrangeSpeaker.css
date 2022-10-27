@@ -1,0 +1,34 @@
+
+
+.orange-speaker-container
+{
+    width: 100%;
+    border-radius: 5px;
+    height: 400px;
+    background-color: var(--orange);
+    display: flex;
+    margin: 1rem 0;
+    background-image:url("../../assets/home/desktop/pattern-circles.svg") ;
+    background-size: cover;
+    align-items: center;
+
+    
+}
+
+.orange-speaker-img{
+    width: 50%;
+    padding-top: 10rem;
+}
+.orange-speaker-content{
+    width: 50%;
+    padding-right:8rem;
+}
+.orange-speaker-content h1{
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+.orange-speaker-content p{
+    color: white;
+    margin-bottom: 20px;
+}

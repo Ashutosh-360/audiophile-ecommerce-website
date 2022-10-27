@@ -1,0 +1,33 @@
+.product-display-wrapper {
+  width: 100%;
+  height: 11rem;
+  background:  #f1f1f1;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.product-display-wrapper img {
+  width: 50%;
+  position: absolute;
+  top: -3rem;
+}
+.product-display-wrapper h3{
+ margin-top: 6rem;
+ margin-bottom: 0.75rem;
+ font-weight: 700;
+}
+.product-display-wrapper .link 
+{
+  color: grey;
+  opacity: 0.8;
+  font-weight: 600;
+  text-decoration: none;
+}
+.product-display-wrapper .link span{
+  color: orange;
+  font-weight: 700;
+  font-size: 1.25rem;
+}

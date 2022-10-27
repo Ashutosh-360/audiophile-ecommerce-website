@@ -1,0 +1,27 @@
+.bottom-gear-container{
+    width: 100%;
+    height: 600px;
+    padding: 3rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.bottom-gear-content{
+    padding-right:3rem ;
+    width: 50%;
+
+}
+.bottom-gear-content h1{
+    font-family: 700;
+margin-bottom: 20px;
+}
+.bottom-gear-content p{
+    color: grey;
+margin-bottom: 20px;
+}
+.bottom-gear-container img{
+    width: 50%;
+    height: 100%;
+
+    object-fit: cover;
+}

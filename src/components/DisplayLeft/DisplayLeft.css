@@ -1,0 +1,40 @@
+.display-left-container {
+  width: 100%;
+  padding: 5rem 15rem;
+  height: 40rem;
+  display: flex;
+}
+.display-left-container .display-left-left {
+  width: 50%;
+}
+.display-left-container .display-left-right {
+  padding: 3rem;
+  width: 50%;
+}
+
+.display-left-container .display-left-left img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.display-left-container .display-left-right h3 {
+  color: var(--orange);
+  font-weight: 400;
+  letter-spacing: 10px;
+  margin-bottom: 20px;
+}
+
+.display-left-container .display-left-right h1 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+.display-left-container .display-left-right p {
+  color: grey;
+  margin-bottom: 20px;
+}
+.display-left-right h4{
+
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-size: 1.05rem;
+}

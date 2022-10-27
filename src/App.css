@@ -1,0 +1,25 @@
+.App{
+    width: 100%;
+    height: auto;
+}
+
+.product-display-container
+{
+    padding: 5rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.middle-content
+{
+    padding: 0 15rem;
+}
+
+.footer-container{
+    padding: 3rem 15rem;
+    background: black;
+}
+.bottom-gear{
+    padding: 0 15rem;
+}

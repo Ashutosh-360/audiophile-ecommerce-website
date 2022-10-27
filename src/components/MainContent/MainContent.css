@@ -1,0 +1,38 @@
+.maincontent-container
+{
+    width: 100%;
+    padding: 1rem 15rem;
+    height: auto;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:url("../../assets/home/desktop/image-hero.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    background-position-y: 85%;
+}
+
+.maincontent-left{
+    width: 40%;
+}
+.maincontent-left h3{
+    font-size: 1rem;
+    color: grey;
+    opacity: 0.5;
+    letter-spacing: 0.8rem;
+    margin-bottom: 20px
+}
+.maincontent-left h1{
+font-size: 3.5rem;
+margin-bottom: 20px;
+line-height: 3.5rem;
+}
+.maincontent-left p{
+color: grey;
+opacity: 0.6;
+margin-bottom: 30px;
+}
+
+

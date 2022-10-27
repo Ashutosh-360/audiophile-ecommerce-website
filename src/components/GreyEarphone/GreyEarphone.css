@@ -1,0 +1,25 @@
+.grey-earphone-container {
+  width: 100%;
+  border-radius: 5px;
+  height: 300px;
+  background-color: var(--faint);
+  display: flex;
+  margin: 2rem 0;
+  align-items: center;
+}
+
+.grey-earphone-container img {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.grey-earphone-content {
+  width: 50%;
+  padding: 2rem;
+}
+.grey-earphone-content h1 {
+  color: black;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
