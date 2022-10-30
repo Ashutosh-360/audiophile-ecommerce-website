@@ -12,7 +12,7 @@
   color: white;
 }
 
-@media (max-width:400px)
+@media (max-width:350px)
 {
   .nav-links a {
     font-size: 0.7rem;
