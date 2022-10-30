@@ -23,3 +23,23 @@
   font-size: 2.5rem;
   margin-bottom: 10px;
 }
+
+@media (max-width: 600px) {
+  .grey-earphone-container {
+    height: auto;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+  }
+  .grey-earphone-content {
+    width: 100%;
+    padding: 0rem;
+  }
+  .grey-earphone-container img {
+    width: 100%;
+  }
+  .grey-earphone-content h1 {
+    font-size: 2rem;
+    margin-top: 1rem;
+  }
+}

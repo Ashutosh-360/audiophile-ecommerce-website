@@ -25,3 +25,21 @@ margin-bottom: 20px;
 
     object-fit: cover;
 }
+
+
+@media (max-width:600px)
+{
+    .bottom-gear-container {
+        height: auto;
+       padding: 2rem;
+       flex-direction: column-reverse;
+    }
+    .bottom-gear-content {
+        padding-right: 0rem;
+        width: 100%;
+    }
+    .bottom-gear-container img {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+}

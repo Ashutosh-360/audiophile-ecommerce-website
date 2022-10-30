@@ -11,3 +11,10 @@
   font-size: 3rem;
   color: white;
 }
+
+@media (max-width:400px)
+{
+  .nav-links a {
+    font-size: 0.7rem;
+}
+}

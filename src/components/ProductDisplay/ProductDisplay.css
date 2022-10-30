@@ -31,3 +31,44 @@
   font-weight: 700;
   font-size: 1.25rem;
 }
+
+@media (max-width:600px)
+{
+  .product-display-wrapper
+  {
+    height: auto;
+    padding: 0.8rem 0.5rem;
+  }
+  .product-display-wrapper h3 {
+    margin-top: 3rem;
+    font-weight: 600;
+    font-size: 0.85rem;
+}
+.product-display-wrapper img {
+  width: 80%;
+  position: absolute;
+  top: -2.2rem;
+}
+.product-display-wrapper .link {
+  font-size: 0.8rem;
+  font-weight: 500;
+  
+}
+.product-display-wrapper .link span {
+  
+  font-size: 0.8rem;
+}
+}
+
+
+@media (max-width:400px)
+{
+  .product-display-wrapper
+  {
+    margin-top: 3rem;
+  }
+  .product-display-wrapper img {
+    width: 50%;
+    top: -3.2rem;
+  }
+}
