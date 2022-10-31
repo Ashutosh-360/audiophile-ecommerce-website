@@ -1,15 +1,15 @@
 import React from "react";
 import logo from "../../assets/shared/desktop/logo.svg";
 import "./Header.css";
-import { NavLink } from "react-router-dom";
+import { NavLink,Link } from "react-router-dom";
 import cart from "../../assets/shared/desktop/icon-cart.svg";
 
 const Header = () => {
   return (
     <div className="header-container">
       <div className="logo-container">
-        <img src={logo} alt="logo" />
-        <img id="cart" src={cart} alt="" />
+        <Link to=""><img src={logo} alt="logo" /></Link>
+        <Link to="cart" ><img id="cart" src={cart} alt="" /></Link>
       </div>
       <div className="nav-links">
         <NavLink className="header-link" to="">
@@ -26,7 +26,7 @@ const Header = () => {
         </NavLink>
       </div>
       <div className="cart-img">
-        <img src={cart} alt="" />
+       <Link to="cart"> <img src={cart} alt="" /></Link>
       </div>
     </div>
   );

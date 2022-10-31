@@ -1,8 +1,10 @@
+// import { useSelector } from "react-redux";
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import BottomGear from "./components/BottomGear/BottomGear";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
+import Cart from "./pages/Cart/Cart";
 import Earphones from "./pages/Earphones/Earphones";
 import Headphones from "./pages/Headphones/Headphones";
 import Home from "./pages/Home/Home";
@@ -16,8 +18,10 @@ import ZX9Speaker from "./pages/ZX9Speaker/ZX9Speaker";
 
 
 function App() {
+  // const count=useSelector((state) => state.cart.cartCounter);
   return (
     <div className="App">
+    {/* <h1>{count}</h1> */}
       <Header />
 
       <Routes>
@@ -31,6 +35,7 @@ function App() {
         <Route path="zx9-speaker" element={<ZX9Speaker/>}  />
         <Route path="zx7-speaker" element={<ZX7Speaker/>}  />
         <Route path="yx1-earphone" element={<YX1Earphone/>}  />
+        <Route path="cart" element={<Cart/>}  />
       </Routes>
       <div className="bottom-gear">
         <BottomGear />

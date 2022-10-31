@@ -1,11 +1,16 @@
 const { createSlice } = require("@reduxjs/toolkit");
+const initialState={
+    cartProducts:[],
+    cartCounter:0,
+}
 
 const cartSlice=createSlice({
     name:"cart",
-    initialState: [],
+    initialState,
     reducers:{
-        add(state,action){
-                state.push(action.payload);
+        add:(state)=>{
+            // state.push(action.payload);
+            state.cartCounter+=1;
         }
     }
 })
