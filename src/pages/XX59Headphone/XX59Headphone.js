@@ -2,6 +2,7 @@ import React from "react";
 import headphone59 from "../../assets/product-xx59-headphones/desktop/image-product.jpg";
 import DisplayLeft from "../../components/DisplayLeft/DisplayLeft";
 import Features from "../../components/Features/Features";
+import "./XX59Headphone.css";
 
 function XX59Headphone() {
   return (

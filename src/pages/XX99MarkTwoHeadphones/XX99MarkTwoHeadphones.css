@@ -29,3 +29,36 @@ display: flex;
     color: grey;
 
 }
+
+
+
+@media (max-width:1150px)
+{
+    .features-inthebox {
+        padding: 0 8rem;
+    }
+}
+
+@media (max-width:900px)
+{
+    .features-inthebox {
+        padding: 0 3rem;
+    }
+}
+@media (max-width:600px)
+{
+    .features-inthebox {
+        padding: 0 1rem;
+        flex-direction: column;
+        width: 100%;
+    }
+    .features {
+        width: 100%;
+        padding: 1rem 0rem;
+    }
+    .in-the-box {
+        width: 100%;
+        padding: 1rem;
+        text-align: center;
+    }
+}
